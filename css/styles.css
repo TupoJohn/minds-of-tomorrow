@@ -1,0 +1,177 @@
+  * {
+      box-sizing: border-box;
+      /* font family */
+      font-family: 'Quicksand', sans-serif;
+  }
+  
+  body {
+      margin: 0;
+  }
+  /* Clear floats after the columns */
+  
+  .row:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+  /*estilos pagina web*/
+  
+  .relleno-lateral {
+      padding-left: 100px;
+      padding-right: 100px;
+  }
+  
+  #header {
+      text-align: center;
+      background-image: url('../img/header.jpg');
+      background-size: cover;
+      padding: 30vh 100px;
+      height: 130vh;
+  }
+  
+  #header h1 {
+      font-size: 100px;
+  }
+  
+  #section-1 h2 {
+      font-size: 65px;
+  }
+  
+  #section-1 h3 {
+      font-size: 45px;
+  }
+  
+  .column-1 {
+      width: 50%;
+      float: left;
+  }
+  
+  .gallery img {
+      width: 100%;
+  }
+  
+  #section-2 h2 {
+      font-size: 80px;
+  }
+  
+  #section-2 {
+      background-color: #24eca4;
+      text-align: center;
+      padding: 40px 0px 40px 0px;
+  }
+  
+  .column-3 {
+      width: 25%;
+      float: left;
+  }
+  
+  .gallery-2 img {
+      width: 70%;
+  }
+  
+  #section-3 h2 {
+      font-size: 70px;
+  }
+  
+  #section-3 h3 {
+      font-size: 40px;
+  }
+  
+  .column-4 {
+      width: 25%;
+      float: left;
+      margin-bottom: -70px;
+  }
+  
+  .gallery-3 img {
+      width: 100%;
+  }
+  
+  #section-5 {
+      background-color: #44a4fc;
+  }
+  
+  .column-5 {
+      text-align: center;
+      font-size: 50px;
+      width: 100%;
+      padding-top: 30px;
+  }
+  
+  #section-6 {
+      color: white;
+      background-color: black;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      text-align: left;
+  }
+  
+  .column-6 {
+      width: 50%;
+      float: left;
+  }
+  
+  .column-7 {
+      width: 25%;
+      float: left;
+  }
+  
+  @media screen and (max-width: 700px) {
+      #header {
+          padding: 150px 50px 150px 50px;
+          height: 100vh;
+          font-size: 50px;
+      }
+      .relleno-lateral {
+          padding-left: 5vw;
+          padding-right: 5vw;
+      }
+      #header h1 {
+          font-size: 11vw;
+      }
+      .column-1 {
+          width: 100%;
+      }
+      #section-1 h2 {
+          font-size: 7vw;
+      }
+      #section-1 h3 {
+          font-size: 5vw;
+      }
+      #section-2 h2 {
+          font-size: 7vw;
+      }
+      #section-2 p {
+          font-size: 4vw;
+      }
+      #section-3 h2 {
+          font-size: 7vw;
+      }
+      #section-3 h3 {
+          font-size: 5vw;
+      }
+      .column-4 {
+          width: 50%;
+      }
+      #section-5 h2 {
+          font-size: 5vw;
+      }
+      .column-5 {
+          width: 100%;
+          text-align: center;
+          padding-top: 65px;
+      }
+      #section-6 h4 {
+          width: 100%;
+          font-size: 4vw;
+          text-align: center;
+      }
+      .column-6 {
+          width: 100%;
+      }
+      .column-7 {
+          width: 50%;
+          text-align: center;
+          font-size: 3vw;
+      }
+  }
